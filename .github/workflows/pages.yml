@@ -1,0 +1,35 @@
+# Publica no GitHub Pages a pasta site/ (branch main) + os videos/capas dos proximos posts (branch midia, em /midia/)
+name: Site (GitHub Pages)
+on:
+  push:
+    branches: [main]
+    paths: ["site/**", ".github/workflows/pages.yml"]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Mídia dos próximos posts (branch midia)
+        uses: actions/checkout@v4
+        continue-on-error: true
+        with:
+          ref: midia
+          path: site/midia
+      - run: rm -rf site/midia/.git
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4
