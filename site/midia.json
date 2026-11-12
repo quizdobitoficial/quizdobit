@@ -2,10 +2,10 @@
   "itens": [
     "video02_quinta_serie/corte_dificil_2",
     "video02_quinta_serie/corte_impossivel_2",
-    "video02_quinta_serie/corte_medio_2",
     "video03_animais/corte_dificil_1",
     "video03_animais/corte_facil_1",
+    "video03_animais/corte_impossivel_1",
     "video03_animais/corte_medio_1"
   ],
-  "atualizado": "2026-11-12T08:15"
+  "atualizado": "2026-11-12T20:15"
 }
