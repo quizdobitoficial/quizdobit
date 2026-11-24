@@ -2,18 +2,18 @@
   "itens": [
     "video03_animais/corte_dificil_2",
     "video03_animais/corte_impossivel_2",
-    "video03_animais/corte_medio_2",
     "video04_animes/corte_dificil_1",
     "video04_animes/corte_facil_1",
+    "video04_animes/corte_impossivel_1",
     "video04_animes/corte_medio_1"
   ],
   "arquivos": {
     "video03_animais/corte_dificil_2": "6000655-1794570171",
     "video03_animais/corte_impossivel_2": "6144341-1794570246",
-    "video03_animais/corte_medio_2": "5709034-1794570093",
     "video04_animes/corte_dificil_1": "6392460-1794704907",
     "video04_animes/corte_facil_1": "6022437-1794704821",
+    "video04_animes/corte_impossivel_1": "6459699-1794704946",
     "video04_animes/corte_medio_1": "6551242-1794704865"
   },
-  "atualizado": "2026-11-23T20:15"
+  "atualizado": "2026-11-24T12:15"
 }
