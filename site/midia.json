@@ -3,17 +3,17 @@
     "video04_animes/corte_dificil_1",
     "video04_animes/corte_dificil_2",
     "video04_animes/corte_facil_2",
-    "video04_animes/corte_impossivel_1",
     "video04_animes/corte_impossivel_2",
-    "video04_animes/corte_medio_2"
+    "video04_animes/corte_medio_2",
+    "video05_mundo/corte_facil_1"
   ],
   "arquivos": {
     "video04_animes/corte_dificil_1": "6392460-1794704907",
     "video04_animes/corte_dificil_2": "6246343-1794704925",
     "video04_animes/corte_facil_2": "5931364-1794704842",
-    "video04_animes/corte_impossivel_1": "6459699-1794704946",
     "video04_animes/corte_impossivel_2": "6427865-1794704969",
-    "video04_animes/corte_medio_2": "6017316-1794704887"
+    "video04_animes/corte_medio_2": "6017316-1794704887",
+    "video05_mundo/corte_facil_1": "6314345-1794843746"
   },
-  "atualizado": "2026-11-26T11:45"
+  "atualizado": "2026-11-26T12:15"
 }
