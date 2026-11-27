@@ -1,7 +1,7 @@
 {
   "itens": [
     "video05_mundo/corte_dificil_1",
-    "video05_mundo/corte_facil_1",
+    "video05_mundo/corte_dificil_2",
     "video05_mundo/corte_facil_2",
     "video05_mundo/corte_impossivel_1",
     "video05_mundo/corte_medio_1",
@@ -9,11 +9,11 @@
   ],
   "arquivos": {
     "video05_mundo/corte_dificil_1": "6340108-1794843840",
-    "video05_mundo/corte_facil_1": "6314345-1794843746",
+    "video05_mundo/corte_dificil_2": "6761414-1794843864",
     "video05_mundo/corte_facil_2": "6356629-1794843770",
     "video05_mundo/corte_impossivel_1": "6340986-1794843885",
     "video05_mundo/corte_medio_1": "6574255-1794843793",
     "video05_mundo/corte_medio_2": "6946873-1794843817"
   },
-  "atualizado": "2026-11-27T16:15"
+  "atualizado": "2026-11-27T20:15"
 }
